@@ -1,5 +1,23 @@
-def print_kwargs(**kwargs):
-    print(kwargs)
+def add(a, b):
+  print(a + b)
+  return a + b
 
-print_kwargs(a=1)
-print_kwargs(name = 'foo', age= 3)
+def sub(a, b):
+  print(a - b)
+  return a - b
+
+def mul(a, b):
+  print(a * b)
+  return a * b
+
+def div(a, b):
+  print(a / b)
+  return a / b
+
+def fourCalc(a, b):
+  result = add(a, b)
+  result = sub(result, b)
+  result = mul(result, b)
+  result = div(result, b)
+
+fourCalc(3, 4)
