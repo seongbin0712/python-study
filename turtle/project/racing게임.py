@@ -10,6 +10,7 @@ t.speed(0)
 t.goto(0, 200)
 t.write("터틀 레이스", False, "center", ("", 35))
 
+
 # 경기장 그리기
 t.goto(-400, 170)
 t.down()
