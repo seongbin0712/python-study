@@ -16,4 +16,3 @@ while num != user_guess:
     print("\n더 작은 수입니다.")
 
 print(f"\n정답입니다. {count}번 만에 맞추었습니다. ")
-
